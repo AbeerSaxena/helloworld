@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git 'https://github.com/AbeerSaxena/DevOps'
+                git 'https://github.com/AbeerSaxena/helloworld'
             }
         }
         stage('Compile and Test') {
